@@ -1,0 +1,22 @@
+const leftColor = document.querySelector(".left");
+const rightColor = document.querySelector(".right"); 
+const body = document.getElementById("gradient");
+const h3 = document.querySelector("h3");
+let col1 = "red", col2 = "yellow";
+let current = "linear-gradient(to right, " + col1 + ", " + col2 + ")";
+
+leftColor.addEventListener("input", () => {
+    col1 = leftColor.value;
+    changeBackground(col1, col2);
+
+});
+rightColor.addEventListener("input", () => {
+    col2 = rightColor.value;
+    changeBackground(col1, col2);
+});
+
+const changeBackground = (left, right) => {
+    current = "linear-gradient(to right, " + col1 + ", " + col2 + ")";
+    body.style.background = current;
+    h3.textContent = current;
+}

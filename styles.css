@@ -1,0 +1,7 @@
+body {
+    text-align: center;
+    justify-content: center;
+    background: linear-gradient(to right, red, yellow);
+    height: 100%;
+    width: 100%;
+}
