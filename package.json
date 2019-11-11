@@ -1,0 +1,22 @@
+{
+  "name": "backgroundgradientgenerator",
+  "version": "1.0.0",
+  "description": "css linear gradient generator for page background",
+  "main": "generator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ablutie/backgroundGradientGenerator.git"
+  },
+  "keywords": [
+    "css"
+  ],
+  "author": "Mihai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ablutie/backgroundGradientGenerator/issues"
+  },
+  "homepage": "https://github.com/Ablutie/backgroundGradientGenerator#readme"
+}
