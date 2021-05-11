@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/Ablutie/backgroundGradientGenerator#readme",
   "dependencies": {
-    "lodash": "^4.17.15"
+    "lodash": "^4.17.21"
   }
 }
